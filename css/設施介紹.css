@@ -1,0 +1,207 @@
+body{
+    background-image:  url(/04_徐千翔_2021_寶闊活水游泳池官方網站/img/背景圖片.jpg);
+    background-size: 100%;
+    background-attachment:fixed;
+}
+.wrap{
+    margin: 0 auto;
+    width: 1680px;
+    /* height: 8000px; */
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        }
+/* header */
+ header{
+    margin:  auto;
+    display: flex;
+    justify-content: start;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 1680px;
+    height: 110px;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+/* logo照片 */
+
+.logo img{
+    display: inline;
+    width: 100px ;
+    height: 100px;
+    margin:  5px;
+} 
+/* 頂端列 */
+ul#navmenu{
+
+list-style-type: none;
+margin-top: 30px;
+display: flex;
+background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+ul#navmenu li {
+list-style-type: none;
+width: 150px;
+height: 50px;
+/* border: solid 1px #000; */
+position: relative;
+}
+.line{
+    padding-bottom: 70px;
+}
+
+ul#navmenu a {
+list-style-type: none;
+text-decoration: none;
+text-align: center;
+display: block;
+width: 150px;
+height: 100px;
+/* border: blue solid 1px; */
+color: #000;
+border-radius: 2px;
+padding-top: 13px;
+font-size: 18px;
+font-weight: 600;
+
+
+
+}
+ul#navmenu ul.sub1 li{
+    font-size: 18pt;
+    font-weight: 600;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+/* 首頁隱藏效果 */
+ul#navmenu ul.sub1{
+    display: none;
+    position: absolute;
+    top:80px;
+    left: -41px;
+}
+
+/* 觸碰後顯示首頁項目 */
+ul#navmenu li:hover .sub1 {
+display: block;
+transition:1s;
+}
+
+
+ul#navmenu li:hover    {
+    border-bottom:  8px solid #537895;
+    /* padding-bottom: 70px; */
+    transition:0.3s;
+
+}
+.time{
+    padding-top: 20px;
+    margin-left: 250px;
+}
+.time p {
+    
+    /* padding-top: 40px; */
+}
+
+/* icon */
+
+.icon{
+    list-style-type: none;
+    display: flex;
+    margin-left: 10px;		
+    margin-top: 39px;
+}
+.icon li{
+    float: right;
+    margin-right: 30px;
+    
+}
+/* 對話框統一格式 */
+
+h2{     
+        list-style-type: none;
+		width: 150px;
+		height: 50px;
+		background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+		text-align: center;
+		color: #000;
+		padding-top: 13px;
+		font-size: 18px;
+		font-weight: 800;
+		margin-left: 90px;
+}
+hr.style-four {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5);
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+/* main */
+.container{
+    margin-top: 100px;
+}
+/* 1.品牌介紹  */
+#facilityContainerBg{
+    background: #C9CCD3;
+    background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: lighten;
+    box-shadow:0 0 5px 3px gray;
+    
+}
+.facilityContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+   
+}
+/* #facilityContainerImg{
+    width: 300px;
+    
+} */
+.facilityContainer img{
+    width: 520px;
+}
+
+
+.facilityText{
+    
+    padding: 30px;
+}
+.facilityText h3{
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.facilityText p{
+    font-size: 20px;
+    line-height:40px;
+    padding-right: 100px;
+}
+.facilityText span{
+    background-color:lightgray;margin-right:5px;
+}
+
+
+/* footer */
+.footer{
+	display: flex;
+	justify-content:center;
+	padding: 25px 15px 0px;
+    background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+}
+
+.baco span{
+	line-height: 25px;
+	font-size: 14px;
+	display: block;
+    margin-right: 1px;
+}
+
+.baco a{
+	text-decoration: none;
+	color: blue;
+	font-weight: 600;
+
+}
